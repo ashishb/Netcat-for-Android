@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="0.85"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_weight="0.85"
+            android:inputType="text|textNoSuggestions" >
+
+            <requestFocus />
+        </EditText>
+
+        <Space
+            android:layout_width="21dp"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="220dp"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_columnSpan="4"
+            android:layout_row="0"
+            android:layout_weight="0.85"
+            android:text="@string/send" />
+
+        <Space
+            android:layout_width="24dp"
+            android:layout_height="1dp"
+            android:layout_column="2"
+            android:layout_row="0" />
+    </GridLayout>
+
+</LinearLayout>

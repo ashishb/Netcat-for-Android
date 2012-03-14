@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetCat</string>
+    <string name="connect_hint">host:port</string>
+    <string name="input_hint">send msg</string>
+    <string name="host_hint">host name/IP</string>
+    <string name="port_hint">port</string>
+    <string name="connect">Connect</string>
+    <string name="client_tcp">TCP</string>
+    <string name="client_udp">UDP</string>
+    <string name="send">Send</string>
+</resources>
